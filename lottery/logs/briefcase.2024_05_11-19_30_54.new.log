@@ -1,0 +1,539 @@
+Date/Time:       2024-05-11 19:30:55 
+Command line:    D:\python\Scripts\briefcase new --template=git@github.com:lwandsby/lw.git
+
+OS Release:      Windows 10
+OS Version:      10.0.19045
+Architecture:    AMD64
+Platform:        Windows-10-10.0.19045-SP0
+
+Python exe:      D:\python\python.exe
+Python version:  3.12.3 (tags/v3.12.3:f6650f9, Apr  9 2024, 14:05:25) [MSC v.1938 64 bit (AMD64)]
+Virtual env:     False
+Conda env:       False
+
+Briefcase:       0.3.18
+Target platform: all
+Target format:   None
+
+Environment Variables:
+	ALLUSERSPROFILE=C:\ProgramData
+	APPDATA=C:\Users\lw\AppData\Roaming
+	CLASSPATH=D:\code\jdk1.8\lib\dt.jar;D:\code\jdk1.8\lib\tools.jar
+	COMMONPROGRAMFILES=C:\Program Files\Common Files
+	COMMONPROGRAMFILES(X86)=C:\Program Files (x86)\Common Files
+	COMMONPROGRAMW6432=C:\Program Files\Common Files
+	COMPUTERNAME=DESKTOP-F8D0OFN
+	COMSPEC=C:\Windows\system32\cmd.exe
+	DM_HOME=D:\linux_lw\dm\dm7client
+	DRIVERDATA=C:\Windows\System32\Drivers\DriverData
+	HOMEDRIVE=C:
+	HOMEPATH=\Users\lw
+	JAVA_HOME=D:\code\jdk1.8
+	LOCALAPPDATA=C:\Users\lw\AppData\Local
+	LOGONSERVER=\\DESKTOP-F8D0OFN
+	NLS_LANG=AMERICAN_AMERICA.AL32UTF8
+	NUMBER_OF_PROCESSORS=12
+	ONEDRIVE=C:\Users\lw\OneDrive
+	ONEDRIVECONSUMER=C:\Users\lw\OneDrive
+	OS=Windows_NT
+	PATH=D:\python\Scripts\;D:\python\;E:\app\client\lw\product\12.1.0\client_1\bin;D:\linux\VMwareWorkstationPro\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\linux\xmanager\;D:\linux\xftp\;D:\code\jdk1.8\bin;D:\code\jdk1.8\jre\bin;D:\svn\bin;E:\UE;E:\UE\UltraEdit64pjb_1989;E:\Xshell\;D:\linux\Xftp_7.0.0088\;D:\nmap;E:\思创\加密\jiami\;D:\;ySQL\MYSQL5.5\bin;D:\python\git\Git\cmd;C:\Users\lw\AppData\Local\Microsoft\WindowsApps;D:\Bandizip\;E:\Bandizip\;C:\Users\lw\AppData\Roaming\npm;D:\vscode\Microsoft VS Code\bin;D:\python\pycharm\PyCharm Community Edition 2024.1\bin
+	PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
+	PROCESSOR_ARCHITECTURE=AMD64
+	PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 165 Stepping 2, GenuineIntel
+	PROCESSOR_LEVEL=6
+	PROCESSOR_REVISION=a502
+	PROGRAMDATA=C:\ProgramData
+	PROGRAMFILES=C:\Program Files
+	PROGRAMFILES(X86)=C:\Program Files (x86)
+	PROGRAMW6432=C:\Program Files
+	PROMPT=$P$G
+	PSMODULEPATH=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+	PUBLIC=C:\Users\Public
+	PYCHARM COMMUNITY EDITION=D:\python\pycharm\PyCharm Community Edition 2024.1\bin;
+	SYSTEMDRIVE=C:
+	SYSTEMROOT=C:\Windows
+	TEMP=C:\Users\lw\AppData\Local\Temp
+	TMP=C:\Users\lw\AppData\Local\Temp
+	TNS_ADMIN=E:\app\client\lw\product\12.1.0\client_1\network\admin\sample
+	UNRAR_LIB_PATH=C:\Program Files\python\Lib\site-packages\unrar\UnRAR.dll
+	USERDOMAIN=DESKTOP-F8D0OFN
+	USERDOMAIN_ROAMINGPROFILE=DESKTOP-F8D0OFN
+	USERNAME=lw
+	USERPROFILE=C:\Users\lw
+	WINDIR=C:\Windows
+	WIX=C:\Program Files (x86)\WiX Toolset v3.11\
+	ZES_ENABLE_SYSMAN=1
+
+pyproject.toml:
+[Errno 2] No such file or directory: 'C:\\Users\\lw\\lottery\\pyproject.toml'
+
+Briefcase Log:
+[19:30:43]                                                                                                                                                                new.py:679
+           Let's build a new Briefcase app!                                                                                                                               new.py:680
+                                                                                                                                                                          new.py:300
+                                                                                                                                                                          new.py:301
+           -- Formal Name ---------------------------------------------------------------                                                                                 new.py:302
+                                                                                                                                                                          new.py:306
+           First, we need a formal name for your application.                                                                                                             new.py:307
+                                                                                                                                                                                    
+           This is the name that will be displayed to humans whenever the name of the                                                                                               
+           application is displayed. It can have spaces and punctuation if you like, and                                                                                            
+           any capitalization will be used as you type it.                                                                                                                          
+                                                                                                                                                                          new.py:308
+[19:30:46] Formal Name [Hello World]:                                                                                                                                     new.py:452
+           User input: lottery                                                                                                                                            new.py:452
+                                                                                                                                                                          new.py:300
+                                                                                                                                                                          new.py:301
+           -- App Name ------------------------------------------------------------------                                                                                 new.py:302
+                                                                                                                                                                          new.py:306
+           Next, we need a name that can serve as a machine-readable Python package name                                                                                  new.py:307
+           for your application.                                                                                                                                                    
+                                                                                                                                                                                    
+           This name must be PEP508-compliant - that means the name may only contain                                                                                                
+           letters, numbers, hyphens and underscores; it can't contain spaces or                                                                                                    
+           punctuation, and it can't start with a hyphen or underscore.                                                                                                             
+                                                                                                                                                                                    
+           Based on your formal name, we suggest an app name of 'lottery', but you can                                                                                              
+           use another name if you want.                                                                                                                                            
+                                                                                                                                                                          new.py:308
+[19:30:47] App Name [lottery]:                                                                                                                                            new.py:469
+           User input:                                                                                                                                                    new.py:469
+                                                                                                                                                                          new.py:300
+                                                                                                                                                                          new.py:301
+           -- Bundle Identifier ---------------------------------------------------------                                                                                 new.py:302
+                                                                                                                                                                          new.py:306
+           Now we need a bundle identifier for your application.                                                                                                          new.py:307
+                                                                                                                                                                                    
+           App stores need to protect against having multiple applications with the same                                                                                            
+           name; the bundle identifier is the namespace they use to identify applications                                                                                           
+           that come from you. The bundle identifier is usually the domain name of your                                                                                             
+           company or project, in reverse order.                                                                                                                                    
+                                                                                                                                                                                    
+           For example, if you are writing an application for Example Corp, whose website                                                                                           
+           is example.com, your bundle would be 'com.example'. The bundle will be                                                                                                   
+           combined with your application's machine readable name to form a complete                                                                                                
+           application identifier (e.g., com.example.lottery).                                                                                                                      
+                                                                                                                                                                          new.py:308
+           Bundle Identifier [com.example]:                                                                                                                               new.py:493
+           User input:                                                                                                                                                    new.py:493
+                                                                                                                                                                          new.py:300
+                                                                                                                                                                          new.py:301
+           -- Project Name --------------------------------------------------------------                                                                                 new.py:302
+                                                                                                                                                                          new.py:306
+           Briefcase can manage projects that contain multiple applications, so we need a                                                                                 new.py:307
+           Project name.                                                                                                                                                            
+                                                                                                                                                                                    
+           If you're only planning to have one application in this project, you can use                                                                                             
+           the formal name as the project name.                                                                                                                                     
+                                                                                                                                                                          new.py:308
+           Project Name [lottery]:                                                                                                                                        new.py:407
+           User input:                                                                                                                                                    new.py:407
+                                                                                                                                                                          new.py:300
+                                                                                                                                                                          new.py:301
+           -- Description ---------------------------------------------------------------                                                                                 new.py:302
+                                                                                                                                                                          new.py:306
+           Now, we need a one line description for your application.                                                                                                      new.py:307
+                                                                                                                                                                          new.py:308
+[19:30:48] Description [My first application]:                                                                                                                            new.py:518
+           User input:                                                                                                                                                    new.py:518
+                                                                                                                                                                          new.py:300
+                                                                                                                                                                          new.py:301
+           -- Author --------------------------------------------------------------------                                                                                 new.py:302
+                                                                                                                                                                          new.py:306
+           Who do you want to be credited as the author of this application?                                                                                              new.py:307
+                                                                                                                                                                                    
+           This could be your own name, or the name of your company you work for.                                                                                                   
+                                                                                                                                                                          new.py:308
+[19:30:49] Author [Jane Developer]:                                                                                                                                       new.py:525
+           User input: lw                                                                                                                                                 new.py:525
+                                                                                                                                                                          new.py:300
+                                                                                                                                                                          new.py:301
+           -- Author's Email ------------------------------------------------------------                                                                                 new.py:302
+                                                                                                                                                                          new.py:306
+           What email address should people use to contact the developers of this                                                                                         new.py:307
+           application?                                                                                                                                                             
+                                                                                                                                                                                    
+           This might be your own email address, or a generic contact address you set up                                                                                            
+           specifically for this application.                                                                                                                                       
+                                                                                                                                                                          new.py:308
+           Author's Email [lw@example.com]:                                                                                                                               new.py:536
+           User input:                                                                                                                                                    new.py:536
+                                                                                                                                                                          new.py:300
+                                                                                                                                                                          new.py:301
+           -- Application URL -----------------------------------------------------------                                                                                 new.py:302
+                                                                                                                                                                          new.py:306
+           What is the website URL for this application?                                                                                                                  new.py:307
+                                                                                                                                                                                    
+           If you don't have a website set up yet, you can put in a dummy URL.                                                                                                      
+                                                                                                                                                                          new.py:308
+           Application URL [https://example.com/lottery]:                                                                                                                 new.py:550
+           User input:                                                                                                                                                    new.py:550
+                                                                                                                                                                          new.py:300
+                                                                                                                                                                          new.py:301
+           -- Project License -----------------------------------------------------------                                                                                 new.py:302
+                                                                                                                                                                          new.py:306
+           What license do you want to use for this project's code?                                                                                                       new.py:307
+                                                                                                                                                                          new.py:308
+             1) BSD license                                                                                                                                           console.py:816
+             2) MIT license                                                                                                                                           console.py:816
+             3) Apache Software License                                                                                                                               console.py:816
+             4) GNU General Public License v2 (GPLv2)                                                                                                                 console.py:816
+             5) GNU General Public License v2 or later (GPLv2+)                                                                                                       console.py:816
+             6) GNU General Public License v3 (GPLv3)                                                                                                                 console.py:816
+             7) GNU General Public License v3 or later (GPLv3+)                                                                                                       console.py:816
+             8) Proprietary                                                                                                                                           console.py:816
+             9) Other                                                                                                                                                 console.py:816
+                                                                                                                                                                      console.py:818
+           Project License [1]:                                                                                                                                       console.py:821
+           User input:                                                                                                                                                console.py:821
+                                                                                                                                                                          new.py:300
+                                                                                                                                                                          new.py:301
+           -- GUI Framework -------------------------------------------------------------                                                                                 new.py:302
+                                                                                                                                                                          new.py:306
+           What GUI toolkit do you want to use for this project?                                                                                                          new.py:307
+                                                                                                                                                                          new.py:308
+             1) Toga                                                                                                                                                  console.py:816
+             2) PySide6       (does not support iOS/Android deployment)                                                                                               console.py:816
+             3) PursuedPyBear (does not support iOS/Android deployment)                                                                                               console.py:816
+             4) Pygame        (does not support iOS/Android deployment)                                                                                               console.py:816
+             5) None                                                                                                                                                  console.py:816
+                                                                                                                                                                      console.py:818
+[19:30:50] GUI Framework [1]:                                                                                                                                         console.py:821
+           User input:                                                                                                                                                console.py:821
+                                                                                                                                                                          new.py:300
+                                                                                                                                                                          new.py:301
+           ------------------------------------------------------------------------------                                                                                 new.py:302
+                                                                                                                                                                          new.py:687
+           [lottery] Generating a new application 'lottery'                                                                                                               new.py:687
+           Using app template: git@github.com:lwandsby/lw.git, branch v0.3.18                                                                                           base.py:1013
+[19:30:54]                                                                                                                                                            __main__.py:44
+           Could not find a template branch for Briefcase v0.3.18.                                                                                                    __main__.py:45
+           Saving log... started                                                                                                                                      console.py:390
+
+Main thread traceback:
+┌─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────┐
+│ D:\python\Lib\site-packages\cookiecutter\vcs.py:115 in clone                                                                                                                     │
+│                                                                                                                                                                                  │
+│   112 │   │   │   │   # Avoid Mercurial "--config" and "--debugger" injection vulnerability                                                                                      │
+│   113 │   │   │   │   if repo_type == "hg":                                                                                                                                      │
+│   114 │   │   │   │   │   checkout_params.insert(0, "--")                                                                                                                        │
+│ > 115 │   │   │   │   subprocess.check_output(  # nosec                                                                                                                          │
+│   116 │   │   │   │   │   [repo_type, 'checkout', *checkout_params],                                                                                                             │
+│   117 │   │   │   │   │   cwd=repo_dir,                                                                                                                                          │
+│   118 │   │   │   │   │   stderr=subprocess.STDOUT,                                                                                                                              │
+│                                                                                                                                                                                  │
+│ ┌──────────────────────────────────────── locals ────────────────────────────────────────┐                                                                                       │
+│ │        checkout = 'v0.3.18'                                                            │                                                                                       │
+│ │ checkout_params = ['v0.3.18']                                                          │                                                                                       │
+│ │           clone = True                                                                 │                                                                                       │
+│ │    clone_to_dir = WindowsPath('C:/Users/lw/.cookiecutters')                            │                                                                                       │
+│ │        no_input = True                                                                 │                                                                                       │
+│ │          output = "error: pathspec 'v0.3.18' did not match any file(s) known to git\n" │                                                                                       │
+│ │        repo_dir = 'C:\\Users\\lw\\.cookiecutters\\lw'                                  │                                                                                       │
+│ │       repo_name = 'lw'                                                                 │                                                                                       │
+│ │       repo_type = 'git'                                                                │                                                                                       │
+│ │        repo_url = 'git@github.com:lwandsby/lw.git'                                     │                                                                                       │
+│ └────────────────────────────────────────────────────────────────────────────────────────┘                                                                                       │
+│                                                                                                                                                                                  │
+│ D:\python\Lib\subprocess.py:466 in check_output                                                                                                                                  │
+│                                                                                                                                                                                  │
+│    463 │   │   │   empty = b''                                                                  ┌──────────────────────────────── locals ────────────────────────────────┐       │
+│    464 │   │   kwargs['input'] = empty                                                          │        kw = 'check'                                                    │       │
+│    465 │                                                                                        │    kwargs = {'cwd': 'C:\\Users\\lw\\.cookiecutters\\lw', 'stderr': -2} │       │
+│ >  466 │   return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,                     │ popenargs = (['git', 'checkout', 'v0.3.18'],)                          │       │
+│    467 │   │   │      **kwargs).stdout                                                          │   timeout = None                                                       │       │
+│    468                                                                                          └────────────────────────────────────────────────────────────────────────┘       │
+│    469                                                                                                                                                                           │
+│                                                                                                                                                                                  │
+│ D:\python\Lib\subprocess.py:571 in run                                                                                                                                           │
+│                                                                                                                                                                                  │
+│    568 │   │   │   raise                                                                                                                                                         │
+│    569 │   │   retcode = process.poll()                                                                                                                                          │
+│    570 │   │   if check and retcode:                                                                                                                                             │
+│ >  571 │   │   │   raise CalledProcessError(retcode, process.args,                                                                                                               │
+│    572 │   │   │   │   │   │   │   │   │    output=stdout, stderr=stderr)                                                                                                        │
+│    573 │   return CompletedProcess(process.args, retcode, stdout, stderr)                                                                                                        │
+│    574                                                                                                                                                                           │
+│                                                                                                                                                                                  │
+│ ┌───────────────────────────────────────── locals ──────────────────────────────────────────┐                                                                                    │
+│ │ capture_output = False                                                                    │                                                                                    │
+│ │          check = True                                                                     │                                                                                    │
+│ │          input = None                                                                     │                                                                                    │
+│ │         kwargs = {'stdout': -1, 'cwd': 'C:\\Users\\lw\\.cookiecutters\\lw', 'stderr': -2} │                                                                                    │
+│ │      popenargs = (['git', 'checkout', 'v0.3.18'],)                                        │                                                                                    │
+│ │        process = <Popen: returncode: 1 args: ['git', 'checkout', 'v0.3.18']>              │                                                                                    │
+│ │        retcode = 1                                                                        │                                                                                    │
+│ │         stderr = None                                                                     │                                                                                    │
+│ │         stdout = b"error: pathspec 'v0.3.18' did not match any file(s) known to git\n"    │                                                                                    │
+│ │        timeout = None                                                                     │                                                                                    │
+│ └───────────────────────────────────────────────────────────────────────────────────────────┘                                                                                    │
+└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+CalledProcessError: Command '['git', 'checkout', 'v0.3.18']' returned non-zero exit status 1.
+
+The above exception was the direct cause of the following exception:
+
+┌─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────┐
+│ D:\python\Lib\site-packages\briefcase\commands\base.py:967 in _generate_template                                                                                                 │
+│                                                                                                                                                                                  │
+│    964 │   │   try:                                                                                                                                                              │
+│    965 │   │   │   # Unroll the template. Use a copy of the context to ensure that any                                                                                           │
+│    966 │   │   │   # mocked calls have an unmodified copy.                                                                                                                       │
+│ >  967 │   │   │   self.tools.cookiecutter(                                                                                                                                      │
+│    968 │   │   │   │   str(cached_template),                                                                                                                                     │
+│    969 │   │   │   │   no_input=True,                                                                                                                                            │
+│    970 │   │   │   │   output_dir=str(output_path),                                                                                                                              │
+│                                                                                                                                                                                  │
+│ ┌────────────────────────────────────── locals ──────────────────────────────────────┐                                                                                           │
+│ │          branch = 'v0.3.18'                                                        │                                                                                           │
+│ │ cached_template = 'git@github.com:lwandsby/lw.git'                                 │                                                                                           │
+│ │   extra_context = {                                                                │                                                                                           │
+│ │                   │   'formal_name': 'lottery',                                    │                                                                                           │
+│ │                   │   'app_name': 'lottery',                                       │                                                                                           │
+│ │                   │   'class_name': 'lottery',                                     │                                                                                           │
+│ │                   │   'module_name': 'lottery',                                    │                                                                                           │
+│ │                   │   'source_dir': 'src/lottery',                                 │                                                                                           │
+│ │                   │   'test_source_dir': 'tests',                                  │                                                                                           │
+│ │                   │   'project_name': 'lottery',                                   │                                                                                           │
+│ │                   │   'description': 'My first application',                       │                                                                                           │
+│ │                   │   'author': 'lw',                                              │                                                                                           │
+│ │                   │   'author_email': 'lw@example.com',                            │                                                                                           │
+│ │                   │   ... +21                                                      │                                                                                           │
+│ │                   }                                                                │                                                                                           │
+│ │     output_path = WindowsPath('C:/Users/lw/lottery')                               │                                                                                           │
+│ │            self = <briefcase.commands.new.NewCommand object at 0x000001DDF56DF4A0> │                                                                                           │
+│ │        template = 'git@github.com:lwandsby/lw.git'                                 │                                                                                           │
+│ └────────────────────────────────────────────────────────────────────────────────────┘                                                                                           │
+│                                                                                                                                                                                  │
+│ D:\python\Lib\site-packages\cookiecutter\main.py:80 in cookiecutter                                                                                                              │
+│                                                                                                                                                                                  │
+│    77 │   │   config_file=config_file,                                                                                                                                           │
+│    78 │   │   default_config=default_config,                                                                                                                                     │
+│    79 │   )                                                                                                                                                                      │
+│ >  80 │   base_repo_dir, cleanup_base_repo_dir = determine_repo_dir(                                                                                                             │
+│    81 │   │   template=template,                                                                                                                                                 │
+│    82 │   │   abbreviations=config_dict['abbreviations'],                                                                                                                        │
+│    83 │   │   clone_to_dir=config_dict['cookiecutters_dir'],                                                                                                                     │
+│                                                                                                                                                                                  │
+│ ┌────────────────────────────────────────────────────────────────────────── locals ──────────────────────────────────────────────────────────────────────────┐                   │
+│ │            accept_hooks = True                                                                                                                             │                   │
+│ │                checkout = 'v0.3.18'                                                                                                                        │                   │
+│ │             config_dict = {                                                                                                                                │                   │
+│ │                           │   'cookiecutters_dir': 'C:\\Users\\lw/.cookiecutters/',                                                                        │                   │
+│ │                           │   'replay_dir': 'C:\\Users\\lw/.cookiecutter_replay/',                                                                         │                   │
+│ │                           │   'default_context': OrderedDict(),                                                                                            │                   │
+│ │                           │   'abbreviations': {                                                                                                           │                   │
+│ │                           │   │   'gh': 'https://github.com/{0}.git',                                                                                      │                   │
+│ │                           │   │   'gl': 'https://gitlab.com/{0}.git',                                                                                      │                   │
+│ │                           │   │   'bb': 'https://bitbucket.org/{0}'                                                                                        │                   │
+│ │                           │   }                                                                                                                            │                   │
+│ │                           }                                                                                                                                │                   │
+│ │             config_file = None                                                                                                                             │                   │
+│ │          default_config = False                                                                                                                            │                   │
+│ │               directory = None                                                                                                                             │                   │
+│ │           extra_context = {                                                                                                                                │                   │
+│ │                           │   'formal_name': 'lottery',                                                                                                    │                   │
+│ │                           │   'app_name': 'lottery',                                                                                                       │                   │
+│ │                           │   'class_name': 'lottery',                                                                                                     │                   │
+│ │                           │   'module_name': 'lottery',                                                                                                    │                   │
+│ │                           │   'source_dir': 'src/lottery',                                                                                                 │                   │
+│ │                           │   'test_source_dir': 'tests',                                                                                                  │                   │
+│ │                           │   'project_name': 'lottery',                                                                                                   │                   │
+│ │                           │   'description': 'My first application',                                                                                       │                   │
+│ │                           │   'author': 'lw',                                                                                                              │                   │
+│ │                           │   'author_email': 'lw@example.com',                                                                                            │                   │
+│ │                           │   ... +21                                                                                                                      │                   │
+│ │                           }                                                                                                                                │                   │
+│ │ keep_project_on_failure = False                                                                                                                            │                   │
+│ │                no_input = True                                                                                                                             │                   │
+│ │              output_dir = 'C:\\Users\\lw\\lottery'                                                                                                         │                   │
+│ │     overwrite_if_exists = False                                                                                                                            │                   │
+│ │                password = None                                                                                                                             │                   │
+│ │                  replay = None                                                                                                                             │                   │
+│ │     skip_if_file_exists = False                                                                                                                            │                   │
+│ │                template = 'git@github.com:lwandsby/lw.git'                                                                                                 │                   │
+│ └────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘                   │
+│                                                                                                                                                                                  │
+│ D:\python\Lib\site-packages\cookiecutter\repository.py:108 in determine_repo_dir                                                                                                 │
+│                                                                                                                                                                                  │
+│   105 │   │   repository_candidates = [unzipped_dir]                                                                                                                             │
+│   106 │   │   cleanup = True                                                                                                                                                     │
+│   107 │   elif is_repo_url(template):                                                                                                                                            │
+│ > 108 │   │   cloned_repo = clone(                                                                                                                                               │
+│   109 │   │   │   repo_url=template,                                                                                                                                             │
+│   110 │   │   │   checkout=checkout,                                                                                                                                             │
+│   111 │   │   │   clone_to_dir=clone_to_dir,                                                                                                                                     │
+│                                                                                                                                                                                  │
+│ ┌────────────────────────────────────────────────────────── locals ───────────────────────────────────────────────────────────┐                                                  │
+│ │ abbreviations = {'gh': 'https://github.com/{0}.git', 'gl': 'https://gitlab.com/{0}.git', 'bb': 'https://bitbucket.org/{0}'} │                                                  │
+│ │      checkout = 'v0.3.18'                                                                                                   │                                                  │
+│ │  clone_to_dir = 'C:\\Users\\lw/.cookiecutters/'                                                                             │                                                  │
+│ │     directory = None                                                                                                        │                                                  │
+│ │      no_input = True                                                                                                        │                                                  │
+│ │      password = None                                                                                                        │                                                  │
+│ │      template = 'git@github.com:lwandsby/lw.git'                                                                            │                                                  │
+│ └─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘                                                  │
+│                                                                                                                                                                                  │
+│ D:\python\Lib\site-packages\cookiecutter\vcs.py:128 in clone                                                                                                                     │
+│                                                                                                                                                                                  │
+│   125 │   │   │   │   │   'have you made a typo?'                                                                                                                                │
+│   126 │   │   │   │   ) from clone_error                                                                                                                                         │
+│   127 │   │   │   if any(error in output for error in BRANCH_ERRORS):                                                                                                            │
+│ > 128 │   │   │   │   raise RepositoryCloneFailed(                                                                                                                               │
+│   129 │   │   │   │   │   f'The {checkout} branch of repository '                                                                                                                │
+│   130 │   │   │   │   │   f'{repo_url} could not found, have you made a typo?'                                                                                                   │
+│   131 │   │   │   │   ) from clone_error                                                                                                                                         │
+│                                                                                                                                                                                  │
+│ ┌──────────────────────────────────────── locals ────────────────────────────────────────┐                                                                                       │
+│ │        checkout = 'v0.3.18'                                                            │                                                                                       │
+│ │ checkout_params = ['v0.3.18']                                                          │                                                                                       │
+│ │           clone = True                                                                 │                                                                                       │
+│ │    clone_to_dir = WindowsPath('C:/Users/lw/.cookiecutters')                            │                                                                                       │
+│ │        no_input = True                                                                 │                                                                                       │
+│ │          output = "error: pathspec 'v0.3.18' did not match any file(s) known to git\n" │                                                                                       │
+│ │        repo_dir = 'C:\\Users\\lw\\.cookiecutters\\lw'                                  │                                                                                       │
+│ │       repo_name = 'lw'                                                                 │                                                                                       │
+│ │       repo_type = 'git'                                                                │                                                                                       │
+│ │        repo_url = 'git@github.com:lwandsby/lw.git'                                     │                                                                                       │
+│ └────────────────────────────────────────────────────────────────────────────────────────┘                                                                                       │
+└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+RepositoryCloneFailed: The v0.3.18 branch of repository git@github.com:lwandsby/lw.git could not found, have you made a typo?
+
+The above exception was the direct cause of the following exception:
+
+┌─────────────────────────────────────────────────────────────────────── Traceback (most recent call last) ────────────────────────────────────────────────────────────────────────┐
+│ D:\python\Lib\site-packages\briefcase\__main__.py:29 in main                                                                                                                     │
+│                                                                                                                                                                                  │
+│   26 │   │   │   Path.cwd() / "pyproject.toml",                                                                                                                                  │
+│   27 │   │   │   overrides=overrides,                                                                                                                                            │
+│   28 │   │   )                                                                                                                                                                   │
+│ > 29 │   │   command(**options)                                                                                                                                                  │
+│   30 │   except HelpText as e:                                                                                                                                                   │
+│   31 │   │   logger.info()                                                                                                                                                       │
+│   32 │   │   logger.info(str(e))                                                                                                                                                 │
+│                                                                                                                                                                                  │
+│ ┌────────────────────────────────────────────────────── locals ──────────────────────────────────────────────────────┐                                                           │
+│ │       command = <briefcase.commands.new.NewCommand object at 0x000001DDF56DF4A0>                                   │                                                           │
+│ │       Command = <class 'briefcase.commands.new.NewCommand'>                                                        │                                                           │
+│ │       console = <briefcase.console.Console object at 0x000001DDF5A28290>                                           │                                                           │
+│ │             e = TemplateUnsupportedVersion('v0.3.18')                                                              │                                                           │
+│ │ extra_cmdline = ['--template=git@github.com:lwandsby/lw.git']                                                      │                                                           │
+│ │        logger = <briefcase.console.Log object at 0x000001DDF4BE38C0>                                               │                                                           │
+│ │       options = {'template': 'git@github.com:lwandsby/lw.git', 'template_branch': None, 'project_overrides': None} │                                                           │
+│ │     overrides = {}                                                                                                 │                                                           │
+│ │       printer = <briefcase.console.Printer object at 0x000001DDF2369850>                                           │                                                           │
+│ │        result = 200                                                                                                │                                                           │
+│ └────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘                                                           │
+│                                                                                                                                                                                  │
+│ D:\python\Lib\site-packages\briefcase\commands\new.py:743 in __call__                                                                                                            │
+│                                                                                                                                                                                  │
+│   740 │   │   # There are no apps, so finalize() will be a no op on app configurations.                                                                                          │
+│   741 │   │   self.finalize()                                                                                                                                                    │
+│   742 │   │                                                                                                                                                                      │
+│ > 743 │   │   return self.new_app(                                                                                                                                               │
+│   744 │   │   │   template=template,                                                                                                                                             │
+│   745 │   │   │   template_branch=template_branch,                                                                                                                               │
+│   746 │   │   │   project_overrides=parse_project_overrides(project_overrides),                                                                                                  │
+│                                                                                                                                                                                  │
+│ ┌─────────────────────────────────────── locals ───────────────────────────────────────┐                                                                                         │
+│ │           options = {}                                                               │                                                                                         │
+│ │ project_overrides = None                                                             │                                                                                         │
+│ │              self = <briefcase.commands.new.NewCommand object at 0x000001DDF56DF4A0> │                                                                                         │
+│ │          template = 'git@github.com:lwandsby/lw.git'                                 │                                                                                         │
+│ │   template_branch = None                                                             │                                                                                         │
+│ └──────────────────────────────────────────────────────────────────────────────────────┘                                                                                         │
+│                                                                                                                                                                                  │
+│ D:\python\Lib\site-packages\briefcase\commands\new.py:699 in new_app                                                                                                             │
+│                                                                                                                                                                                  │
+│   696 │   │   │   )                                                                                                                                                              │
+│   697 │   │                                                                                                                                                                      │
+│   698 │   │   # Create the project files                                                                                                                                         │
+│ > 699 │   │   self.generate_template(                                                                                                                                            │
+│   700 │   │   │   template=(                                                                                                                                                     │
+│   701 │   │   │   │   template                                                                                                                                                   │
+│   702 │   │   │   │   if template                                                                                                                                                │
+│                                                                                                                                                                                  │
+│ ┌─────────────────────────────────────── locals ───────────────────────────────────────┐                                                                                         │
+│ │           context = {                                                                │                                                                                         │
+│ │                     │   'formal_name': 'lottery',                                    │                                                                                         │
+│ │                     │   'app_name': 'lottery',                                       │                                                                                         │
+│ │                     │   'class_name': 'lottery',                                     │                                                                                         │
+│ │                     │   'module_name': 'lottery',                                    │                                                                                         │
+│ │                     │   'source_dir': 'src/lottery',                                 │                                                                                         │
+│ │                     │   'test_source_dir': 'tests',                                  │                                                                                         │
+│ │                     │   'project_name': 'lottery',                                   │                                                                                         │
+│ │                     │   'description': 'My first application',                       │                                                                                         │
+│ │                     │   'author': 'lw',                                              │                                                                                         │
+│ │                     │   'author_email': 'lw@example.com',                            │                                                                                         │
+│ │                     │   ... +18                                                      │                                                                                         │
+│ │                     }                                                                │                                                                                         │
+│ │           options = {}                                                               │                                                                                         │
+│ │ project_overrides = {}                                                               │                                                                                         │
+│ │              self = <briefcase.commands.new.NewCommand object at 0x000001DDF56DF4A0> │                                                                                         │
+│ │          template = 'git@github.com:lwandsby/lw.git'                                 │                                                                                         │
+│ │   template_branch = None                                                             │                                                                                         │
+│ └──────────────────────────────────────────────────────────────────────────────────────┘                                                                                         │
+│                                                                                                                                                                                  │
+│ D:\python\Lib\site-packages\briefcase\commands\base.py:1017 in generate_template                                                                                                 │
+│                                                                                                                                                                                  │
+│   1014 │   │   │   │   f"Using app template: {template}, branch {template_branch}"                                                                                               │
+│   1015 │   │   │   )                                                                                                                                                             │
+│   1016 │   │   │   # Unroll the new app template                                                                                                                                 │
+│ > 1017 │   │   │   self._generate_template(                                                                                                                                      │
+│   1018 │   │   │   │   template=template,                                                                                                                                        │
+│   1019 │   │   │   │   branch=template_branch,                                                                                                                                   │
+│   1020 │   │   │   │   output_path=output_path,                                                                                                                                  │
+│                                                                                                                                                                                  │
+│ ┌────────────────────────────────────── locals ──────────────────────────────────────┐                                                                                           │
+│ │          branch = None                                                             │                                                                                           │
+│ │   extra_context = {                                                                │                                                                                           │
+│ │                   │   'formal_name': 'lottery',                                    │                                                                                           │
+│ │                   │   'app_name': 'lottery',                                       │                                                                                           │
+│ │                   │   'class_name': 'lottery',                                     │                                                                                           │
+│ │                   │   'module_name': 'lottery',                                    │                                                                                           │
+│ │                   │   'source_dir': 'src/lottery',                                 │                                                                                           │
+│ │                   │   'test_source_dir': 'tests',                                  │                                                                                           │
+│ │                   │   'project_name': 'lottery',                                   │                                                                                           │
+│ │                   │   'description': 'My first application',                       │                                                                                           │
+│ │                   │   'author': 'lw',                                              │                                                                                           │
+│ │                   │   'author_email': 'lw@example.com',                            │                                                                                           │
+│ │                   │   ... +21                                                      │                                                                                           │
+│ │                   }                                                                │                                                                                           │
+│ │     output_path = WindowsPath('C:/Users/lw/lottery')                               │                                                                                           │
+│ │            self = <briefcase.commands.new.NewCommand object at 0x000001DDF56DF4A0> │                                                                                           │
+│ │        template = 'git@github.com:lwandsby/lw.git'                                 │                                                                                           │
+│ │ template_branch = 'v0.3.18'                                                        │                                                                                           │
+│ │         version = <Version('0.3.18')>                                              │                                                                                           │
+│ └────────────────────────────────────────────────────────────────────────────────────┘                                                                                           │
+│                                                                                                                                                                                  │
+│ D:\python\Lib\site-packages\briefcase\commands\base.py:984 in _generate_template                                                                                                 │
+│                                                                                                                                                                                  │
+│    981 │   │   │   raise InvalidTemplateRepository(template) from e                                                                                                              │
+│    982 │   │   except cookiecutter_exceptions.RepositoryCloneFailed as e:                                                                                                        │
+│    983 │   │   │   # Branch does not exist.                                                                                                                                      │
+│ >  984 │   │   │   raise TemplateUnsupportedVersion(branch) from e                                                                                                               │
+│    985 │                                                                                                                                                                         │
+│    986 │   def generate_template(                                                                                                                                                │
+│    987 │   │   self,                                                                                                                                                             │
+│                                                                                                                                                                                  │
+│ ┌────────────────────────────────────── locals ──────────────────────────────────────┐                                                                                           │
+│ │          branch = 'v0.3.18'                                                        │                                                                                           │
+│ │ cached_template = 'git@github.com:lwandsby/lw.git'                                 │                                                                                           │
+│ │   extra_context = {                                                                │                                                                                           │
+│ │                   │   'formal_name': 'lottery',                                    │                                                                                           │
+│ │                   │   'app_name': 'lottery',                                       │                                                                                           │
+│ │                   │   'class_name': 'lottery',                                     │                                                                                           │
+│ │                   │   'module_name': 'lottery',                                    │                                                                                           │
+│ │                   │   'source_dir': 'src/lottery',                                 │                                                                                           │
+│ │                   │   'test_source_dir': 'tests',                                  │                                                                                           │
+│ │                   │   'project_name': 'lottery',                                   │                                                                                           │
+│ │                   │   'description': 'My first application',                       │                                                                                           │
+│ │                   │   'author': 'lw',                                              │                                                                                           │
+│ │                   │   'author_email': 'lw@example.com',                            │                                                                                           │
+│ │                   │   ... +21                                                      │                                                                                           │
+│ │                   }                                                                │                                                                                           │
+│ │     output_path = WindowsPath('C:/Users/lw/lottery')                               │                                                                                           │
+│ │            self = <briefcase.commands.new.NewCommand object at 0x000001DDF56DF4A0> │                                                                                           │
+│ │        template = 'git@github.com:lwandsby/lw.git'                                 │                                                                                           │
+│ └────────────────────────────────────────────────────────────────────────────────────┘                                                                                           │
+└──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────┘
+TemplateUnsupportedVersion: Could not find a template branch for Briefcase v0.3.18.
